@@ -1,0 +1,71 @@
+.socials {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.socials__title {
+    font-family: "GothamProBold";
+    font-size: 14px;
+    font-weight: 700;
+    width: 100%;
+    height: 12px;
+    color: #262424;
+}
+
+.socials__list {
+    display: flex;
+    margin-top: 14px;
+}
+
+.socials__item {
+    display: flex;
+    padding-right: 10px;
+}
+
+.socials__link {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #d3d3d7;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials__link::before{
+    content: '';
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.socials__link:hover{
+    background-color: #b03664;
+}
+
+.socials__link_icon_vk::before{
+    background: url('../../img/coworking_sprites.png') -137px -68px;
+    width: 12px;
+    height: 7px;
+}
+
+.socials__link_icon_fb::before{
+    background: url('../../img/coworking_sprites.png') -137px -95px;
+    width: 6px;
+    height: 13px;
+}
+
+.socials__link_icon_tw::before{
+    background: url('../../img/coworking_sprites.png') -137px -39px;
+    width: 11px;
+    height: 9px;
+}
+
+.socials__link_icon_tg::before{
+    background: url('../../img/coworking_sprites.png') -137px -10px;
+    width: 12px;
+    height: 9px;
+}

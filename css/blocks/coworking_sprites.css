@@ -1,0 +1,88 @@
+.bg-arrow_left {
+    width: 6px; height: 10px;
+    background: url('../../img/coworking_sprites.png') -10px -135px;
+}
+
+x
+.bg-arrow_right {
+    width: 6px; height: 10px;
+    background: url('../../img/coworking_sprites.png') -36px -135px;
+}
+
+x
+.bg-fb {
+    width: 6px; height: 13px;
+    background: url('../../img/coworking_sprites.png') -137px -95px;
+}
+
+x
+.bg-feed {
+    width: 20px; height: 18px;
+    background: url('../../img/coworking_sprites.png') -57px -10px;
+}
+
+x
+.bg-feed_hov {
+    width: 20px; height: 18px;
+    background: url('../../img/coworking_sprites.png') -97px -10px;
+}
+
+x
+.bg-feed_white {
+    width: 20px; height: 18px;
+    background: url('../../img/coworking_sprites.png') -10px -61px;
+}
+
+x
+.bg-flower {
+    width: 27px; height: 31px;
+    background: url('../../img/coworking_sprites.png') -10px -10px;
+}
+
+x
+.bg-main {
+    width: 17px; height: 15px;
+    background: url('../../img/coworking_sprites.png') -49px -99px;
+}
+
+x
+.bg-main_hov {
+    width: 17px; height: 15px;
+    background: url('../../img/coworking_sprites.png') -86px -99px;
+}
+
+x
+.bg-tg {
+    width: 12px; height: 9px;
+    background: url('../../img/coworking_sprites.png') -137px -10px;
+}
+
+x
+.bg-tw {
+    width: 11px; height: 9px;
+    background: url('../../img/coworking_sprites.png') -137px -39px;
+}
+
+x
+.bg-vk {
+    width: 12px; height: 7px;
+    background: url('../../img/coworking_sprites.png') -137px -68px;
+}
+
+x
+.bg-wallet {
+    width: 19px; height: 16px;
+    background: url('../../img/coworking_sprites.png') -50px -61px;
+}
+
+x
+.bg-wallet_hov {
+    width: 19px; height: 16px;
+    background: url('../../img/coworking_sprites.png') -89px -61px;
+}
+
+x
+.bg-wallet_white {
+    width: 19px; height: 16px;
+    background: url('../../img/coworking_sprites.png') -10px -99px;
+}

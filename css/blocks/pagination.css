@@ -1,0 +1,72 @@
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagination__display {
+    display: flex;
+    color: #656464;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: "Roboto";
+}
+
+.pagination__controlls {
+    display: flex;
+    align-items: center;
+    color: #262424;
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 29px;
+    font-family: "Roboto";
+}
+
+.pagination__left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8px;
+    height: 12px;
+    background-color: white;
+    background: url('../../img/coworking_sprites.png') -10px -135px;
+}
+
+.pagination__right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8px;
+    height: 12px;
+    background-color: white;
+    margin-left: 18px;
+    background: url('../../img/coworking_sprites.png') -36px -135px;
+}
+
+.pagination__list {
+    display: flex;
+    color: #262424;
+    justify-content: space-between;
+    width: 200px;
+    margin-left: 18px;
+}
+
+.pagination__item {
+    display: flex;
+    color: #262424;
+}
+
+.pagination__link {
+    display: flex;
+    color: #262424;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 9px;
+}
+
+.pagination__item--active .pagination__link {
+    background-color: #2b2b40;
+    border-radius: 3px;
+    color: #ffffff;
+}
+

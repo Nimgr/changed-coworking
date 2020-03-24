@@ -1,0 +1,119 @@
+.menu {
+    display: flex;
+}
+
+.menu__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu__item {
+    display: flex;;
+}
+
+.menu__item:first-child {
+    margin-left: 0;
+}
+
+.menu__link {
+    display: flex;
+    color: #cb2376;
+    font-family: "GothamProBold";
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    align-items: center;
+}
+
+.menu__link_icon_main::before{
+    content: '';
+    display: flex;
+    width: 17px;
+    height: 15px;
+    background: url('../../img/coworking_sprites.png') -49px -99px;
+    margin-right: 10px;
+}
+
+.menu__link_icon_review::before{
+    content: '';
+    display: flex;
+    width: 20px;
+    height: 18px;
+    background: url('../../img/coworking_sprites.png') -57px -10px;
+    margin-right: 10px;
+}
+
+.menu__link_icon_tariffs::before{
+    content: '';
+    display: flex;
+    width: 19px;
+    height: 16px;
+    background: url('../../img/coworking_sprites.png') -50px -61px;
+    margin-right: 10px;
+}
+
+.menu__item_active .menu__link, .menu__link:hover{
+    color: #000000;
+}
+
+.menu__item_active .menu__link_icon_main::before, .menu__link_icon_main:hover::before{
+    background: url('../../img/coworking_sprites.png') -86px -99px;
+}
+
+.menu__item_active .menu__link_icon_review::before, .menu__link_icon_review:hover::before{
+    background: url('../../img/coworking_sprites.png') -97px -10px;
+}
+
+.menu__item_active .menu__link_icon_tariffs::before, .menu__link_icon_tariffs:hover::before{
+    background: url('../../img/coworking_sprites.png') -89px -61px;
+}
+
+.menu__horizontal .menu__list {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.menu__horizontal-top .menu__list {
+    width: 400px;;
+}
+
+.menu__color-white .menu__link {
+    color: white;
+}
+
+.menu__color-white .menu__link:hover {
+    color: #cb2376;
+}
+
+.menu__color-white .menu__item_active .menu__link {
+    color: #cb2376;
+}
+
+.menu__color-white .menu__link_icon_main::before{
+    background: url('../../img/coworking_sprites.png') -49px -99px;
+}
+
+.menu__color-white .menu__link_icon_review::before{
+    background: url('../../img/coworking_sprites.png') -10px -61px;
+}
+
+.menu__color-white .menu__link_icon_tariffs::before{
+    background: url('../../img/coworking_sprites.png') -10px -99px;
+}
+
+.menu__color-white .menu__link_icon_review:hover::before{
+    background: url('../../img/coworking_sprites.png') -57px -10px;
+}
+
+.menu__color-white .menu__link_icon_tariffs:hover::before{
+    background: url('../../img/coworking_sprites.png') -50px -61px;
+}
+
+.menu__list_top {
+    flex-direction: row;
+    justify-content: space-between;
+}

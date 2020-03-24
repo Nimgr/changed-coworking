@@ -1,0 +1,32 @@
+.partners__title {
+    color: #262424;
+    font-family: "GothamProBold";
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 57px;
+    margin-bottom: 50px;
+}
+
+.partners__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.partners__logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 44px;
+}
+
+.partners__logo-img {
+    filter: grayscale(1);
+    transition: .5s;
+}
+
+.partners__logo-images:hover .partners__logo-img {
+    filter: grayscale(0)
+}
